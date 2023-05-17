@@ -1,9 +1,10 @@
 import '../style/Style.css'
+import Page from "./Page";
 
 function Block({number}) {
     return (
         <div className="block">
-            <h1>{number}</h1>
+            <Page id = {number}/>
         </div>
     );
 }
